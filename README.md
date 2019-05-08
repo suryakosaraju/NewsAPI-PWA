@@ -41,6 +41,7 @@ Service Worker
 <br />
 ### `Performance Report by Lighthouse`
 ![](performancetest.png)
+
 <br />
 <br />
 #### `Backlogs (on-pause due to final exams):`
