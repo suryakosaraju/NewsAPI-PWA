@@ -27,6 +27,6 @@ Run it in incognito mode to avoid any issues with your current browser cache.
 ![](performancetest.png)
 
 #### `Backlogs (on-pause due to final exams):`
- - Filtering News according to domains
+ - Filtering News according to keywords,domains,etc.
  - Clean Manifest
  - Functional Tests
