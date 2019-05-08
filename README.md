@@ -30,7 +30,7 @@ Once the application is build for production , we can serve it locally on our ht
 ![](screenhpge.png)
 
 ![](screenswkr.png)
-#### Service Worker
+Service Worker
 
 
 ### `Performance Report by Lighthouse`
