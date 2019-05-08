@@ -45,11 +45,13 @@ Service Worker
 
 <br />
 <br />
+
 #### Backlogs (on-pause due to final exams):
- - Filtering News according to keywords,domains,etc.
- - Clean Manifest
- - Functional Tests
+
+ 1. Filtering News according to keywords,domains,etc.
+ 2. Clean Manifest
+ 3. Functional Tests
  
  <br />
-Additional Note: Borrowed some CSS for styling.
+###### Additional Note: Borrowed some CSS for styling.
  
