@@ -1,4 +1,4 @@
-##`CFSN - A Progressive  Web Application powered by NewsAPI(newsapi.org):fire:`
+## `CFSN - A Progressive  Web Application powered by NewsAPI(newsapi.org):fire:`
 <br />
 <br />
 We've always thought about how a personalised news feed would be like. Look no further! Backed by the NewsAPI, we are able to receive personalised news at through multiple sources and from several categories.
