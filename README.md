@@ -1,4 +1,5 @@
-Backed by the News API, we are able to receive news and the attributes of these news in JSON format. 
+
+We've always thought about how a personalised news feed would be like. Look no further! Backed by the NewsAPI, we are able to receive personalised news at through multiple sources and from several categories.
 
 By using a service-worker, we are able to store any static content and access the web app even while offline. Once we load the website, the service worker is registered and is the cache is updated everytime we reload the web app. This allows for the web app's loading time to match that of a native app.
 
@@ -23,6 +24,14 @@ Perks of hot-reloading. :)
 We must build the app and run an http server from our build directory. 
 It is optimal to run it in incognito mode to avoid issues with your current browser cache.
 
+Once the application is build for production , we can serve it locally on our https server.
+
+### `serve -s build`
+![](screenhpge.png)
+
+![](screenswkr.png)
+######Service Worker
+
 
 ### `Performance Report by Lighthouse`
 ![](performancetest.png)
@@ -33,4 +42,3 @@ It is optimal to run it in incognito mode to avoid issues with your current brow
  - Functional Tests
  
  
-PS: borrowed some CSS for quick styling. :3
