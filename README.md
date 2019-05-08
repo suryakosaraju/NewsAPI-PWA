@@ -53,5 +53,6 @@ Service Worker
  3. Functional Tests
  
  <br />
-#### Additional Note: Borrowed some CSS for styling.
+#### Additional Note: 
+Borrowed some CSS for styling.
  
