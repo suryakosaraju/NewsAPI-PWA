@@ -26,7 +26,7 @@ Run it in incognito mode to avoid any issues with your current browser cache.
 ### `Performance Report by Lighthouse`
 ![](performancetest.png)
 
-## `Backlogs (on-pause due to final exams):`
+#### `Backlogs (on-pause due to final exams):`
  - Filtering News according to domains
  - Clean Manifest
  - Functional Tests
