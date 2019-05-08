@@ -41,7 +41,7 @@ Service Worker
 
 <br />
 ### Performance Report by Lighthouse
-![](performancetest.png)
+![](screenswkr.png)
 
 <br />
 <br />
@@ -53,5 +53,5 @@ Service Worker
  3. Functional Tests
  
  <br />
-###### Additional Note: Borrowed some CSS for styling.
+#### Additional Note: Borrowed some CSS for styling.
  
