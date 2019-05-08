@@ -15,9 +15,17 @@ You will also see any lint errors in the console. :3
 Perks of hot-reloading.
 
 ### `To test the Service Worker`
+![](servicemem.jpeg) 
 
 We must build the app and run the http from our directory. 
 Run it in incognito mode to avoid any issues with your current browser cache.
 ### `npm run build`
 
 
+### `Performance Report by Lighthouse`
+![](performancetest.png)
+
+##Backlogs(To be finished but on-pause due to exams:
+ - Filtering News according to domains
+ - Clean Manifest
+ - Functional Tests
