@@ -17,9 +17,10 @@ Perks of hot-reloading.
 ### `To test the Service Worker`
 ![](servicemem.jpeg) 
 
+### `npm run build`
+
 We must build the app and run the http from our directory. 
 Run it in incognito mode to avoid any issues with your current browser cache.
-### `npm run build`
 
 
 ### `Performance Report by Lighthouse`
