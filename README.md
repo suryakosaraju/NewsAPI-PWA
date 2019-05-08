@@ -1,5 +1,6 @@
-By using the News API we are able to receive news and the attributes of these news. 
-By using a service-worker, we are able to store any static content and access the web app even while offline. Once we load the website, the service worker is registered and is updated everytime we reload the web app. This allows for faster load for the web app that matches a native application in general.
+Backed by the News API, we are able to receive news and the attributes of these news in JSON format. 
+
+By using a service-worker, we are able to store any static content and access the web app even while offline. Once we load the website, the service worker is registered and is the cache is updated everytime we reload the web app. This allows for the web app's loading time to match that of a native app.
 
 ### `To install any dependencies`
 #### `npm install`
@@ -19,8 +20,8 @@ Perks of hot-reloading. :)
 
 #### `npm run build`
 
-We must build the app and run the http from our directory. 
-Run it in incognito mode to avoid any issues with your current browser cache.
+We must build the app and run an http server from our build directory. 
+It is optimal to run it in incognito mode to avoid issues with your current browser cache.
 
 
 ### `Performance Report by Lighthouse`
@@ -30,5 +31,6 @@ Run it in incognito mode to avoid any issues with your current browser cache.
  - Filtering News according to keywords,domains,etc.
  - Clean Manifest
  - Functional Tests
+ 
  
 PS: borrowed some CSS for quick styling. :3
