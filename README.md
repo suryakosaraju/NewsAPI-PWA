@@ -30,3 +30,5 @@ Run it in incognito mode to avoid any issues with your current browser cache.
  - Filtering News according to keywords,domains,etc.
  - Clean Manifest
  - Functional Tests
+ 
+PS: borrowed some CSS for quick styling. :3
