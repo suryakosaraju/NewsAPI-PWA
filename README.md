@@ -26,11 +26,11 @@ It is optimal to run it in incognito mode to avoid issues with your current brow
 
 Once the application is build for production , we can serve it locally on our https server.
 
-### `serve -s build`
+#### `serve -s build`
 ![](screenhpge.png)
 
 ![](screenswkr.png)
-######Service Worker
+#### Service Worker
 
 
 ### `Performance Report by Lighthouse`
