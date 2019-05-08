@@ -1,4 +1,5 @@
 NewsAPI - Progressive  Web Application 
+
 We've always thought about how a personalised news feed would be like. Look no further! Backed by the NewsAPI, we are able to receive personalised news at through multiple sources and from several categories.
 
 By using a service-worker, we are able to store any static content and access the web app even while offline. Once we load the website, the service worker is registered and is the cache is updated everytime we reload the web app. This allows for the web app's loading time to match that of a native app.
