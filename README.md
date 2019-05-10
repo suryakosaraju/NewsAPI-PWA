@@ -6,6 +6,9 @@ We've always thought about how a personalised news feed would be like. Look no f
 By using a service-worker, we are able to store any static content and access the web app even while offline. Once we load the website, the service worker is registered and is the cache is updated everytime we reload the web app. This allows for the web app's loading time to match that of a native app.
 <br />
 <br />
+
+## Let's fire it up and get it running!
+
 ### To install any dependencies
 #### `npm install`
 <br />
@@ -38,21 +41,24 @@ Once the application is build for production , we can serve it locally on our ht
 Service Worker
 
 
-
 <br />
+
 ### Performance Report by Lighthouse
-![](performancet.png)
+
+![](performances.png)
 
 <br />
 <br />
 
-#### Backlogs (on-pause due to final exams):
+#### Pending (on-pause due to final exams):
 
- 1. Filtering News according to keywords,domains,etc.
+ 1. Filtering News according to categories, keywords,etc.
  2. Clean Manifest
  3. Functional Tests
  
  <br />
-#### Additional Note: 
+ 
+**Note**: 
+
 Borrowed some CSS for styling.
  

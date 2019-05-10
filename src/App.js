@@ -14,7 +14,7 @@ class App extends Component {
       isLoading: true,
       sourcen: null,
     }
-this.componentDidMount = this.componentDidMount.bind(this);
+//this.componentDidMount = this.componentDidMount.bind(this);
   }
  // async handleSourceChange(url){
 
@@ -40,6 +40,8 @@ this.componentDidMount = this.componentDidMount.bind(this);
           const url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=90f3115a267341bca2b9fe69d0653820';
       const response = await fetch(url);
       const data = await response.json();
+  {/* Assigning the response received from the request into the articles array
+      and setting the letting the render() know that we have successfully received response */}
       this.setState({articles: data.articles, isLoading: false });
       console.log(data.articles);
 
@@ -60,11 +62,11 @@ this.componentDidMount = this.componentDidMount.bind(this);
 
         return (
           <div className="App">
+      {/* Checking if the articles a response has been received for the request to NewsAPI*/}
           {this.state.isLoading || !this.state.articles ? (
             <p> Loading...</p>
             ): ( 
 
-            //New method of displaying news ina tabular manner. 
             <div>
             <img width="100px" height="100px" src="https://media.featuredcustomers.com/Company.logo/Chalhoub_Group.png"></img>
             <br></br>
@@ -74,13 +76,16 @@ this.componentDidMount = this.componentDidMount.bind(this);
              <div class="page-wrap">                
 
              <ul>
+         {/* Goes through the articles array and prints the respective information of
+             each article with its Title, Image, Description, Content(limited characters),
+             and the Article Link for more content on that article */}
              {this.state.articles.map(article =>(
               <li class="main-content">
                 <h1 class="titlee">{article.title}</h1>              
                   <img width="100%" height="100%" src={article.urlToImage}></img>
 
                 <p class="desc"><strong>{article.description}</strong></p>
-                <p class="cont">{article.content} <a href={article.url}>For more</a></p>
+                <p class="cont">{article.content} <a class="link-style" href={article.url}>For more</a></p>
                               <br></br>
 
               </li> 
@@ -89,16 +94,22 @@ this.componentDidMount = this.componentDidMount.bind(this);
               <br></br>
 
               <nav class="main-nav">
-                <h2>Source Category</h2>
+                <h2 id="nav-titlee">Source Category</h2>
                 <ul>
+            {/* Goes through the array of articles and displays all the different sources that are present */}
                 {this.state.articles.map(article =>(
                   <li class="source-list"><br></br><a class="source-list" href="#">{article.source.name}</a><br></br>----------</li>
                   ))}
                 </ul>
+
               </nav>
               
             </div>
+                <p align="left">Chalhoub Front-End Engineer Intern Test --- Surya Kosaraju -- Mildly-Intelligent Poor Non-Philanthropic Goodguy</p>
+
 </div>
+
+
         //Old method
             // <div>
             //  <h3>Freshly brewed News!</h3>
@@ -118,7 +129,6 @@ this.componentDidMount = this.componentDidMount.bind(this);
             //    </ul>   
             //                <p align="left">Chalhoub Front-End Engineer Intern Test --- Surya Kosaraju -- Genius Poor Non-philanthropic Goodguy</p>
             // </div>
-
             )}
 
           </div>

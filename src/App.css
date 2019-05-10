@@ -3,7 +3,11 @@
 
 }
 
+.link-style{
+color: white;
+font-weight: 900;
 
+}
 .page-wrap {
   display: -webkit-box;           /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;              /* OLD - Firefox 19- (doesn't work very well) */
@@ -20,13 +24,15 @@
   order: 2;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
   
   width: 80%;                     /* No flex here, other cols take up remaining space */
-  
+  color: white;
   -moz-box-flex: 1;               /* Without this, Firefox 19- expands to widest paragraph, overrides width */
-  
-  background: white;
+  background: #333745;
 }
 #maintitle{
   font-family: Courier;
+}
+#nav-titlee{
+  margin-right: -10px;
 }
 .main-nav {
   -webkit-box-ordinal-group: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -41,7 +47,7 @@
   -webkit-flex: 1;                /* Chrome */
   -ms-flex: 1;                    /* IE 10 */
   flex: 1;                        /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  color: white;
+  color: #F6D55C;
   background: #333745;
 }
 .source-list{
@@ -51,6 +57,7 @@
   font-size: 18pt;
   font-family: Courier;
   text-decoration: none;
+  margin-left: -10px;
 }
 
 .main-content,
@@ -100,7 +107,7 @@ p {
 }
 .titlee{
 font-family: Courier;
-
+color: #F6D55C;
 }
 .desc, .cont{
   font-family: Helvetica;
