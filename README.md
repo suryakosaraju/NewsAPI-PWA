@@ -31,7 +31,7 @@ We must build the app and run an http server from our build directory in order t
 It is optimal to run it in incognito mode to avoid issues with your current browser cache.
 <br />
 ### Running the application with ServiceWorker:
-Once the application is build for production , we can serve it locally on our https server.
+Once the application is build for production , we can serve it locally on our http server.
 
 #### `serve -s build`
 ![](screenhpge.png)
@@ -47,6 +47,7 @@ Service Worker
 
 ![](performance.png)
 
+Note: Best Practices rating is lower because the app was being served locally i.e HTTP instead of HTTPS.
 <br />
 <br />
 
