@@ -1,18 +1,19 @@
 ## A Progressive  Web Application powered by NewsAPI(https://www.newsapi.org) :fire:
 <br />
 <br />
-We've always thought about how a personalised news feed would be like. Look no further! Backed by the NewsAPI, we are able to receive personalised news at through multiple sources and from several categories.
+We've always thought about how a personalised news feed would be like. Look no further! We are able to receive personalised news at through multiple sources and from several categories with the help of NewsAPI.
 
-By using a service-worker, we are able to store any static content and access the web app even while offline. Once we load the website, the service worker is registered and is the cache is updated everytime we reload the web app. This allows for the web app's loading time to match that of a native app.
+### PWA-Aspect
+In a progressive web application, we make use of a service worker to give an native app-like experience to the users through the PWA itself. By using a service-worker, we are able to store any static content and access the web app even while offline. Once we load the website, the service worker is registered and is the cache is updated everytime we reload the web app. This allows for the web app's loading time to match that of a native app.
 <br />
 <br />
 
 ## Let's fire it up and get it running!
 
-### To install any dependencies
+### 1. To install any dependencies
 #### `npm install`
 <br />
-### To run the app in Development Mode
+### 2. To run the app in Development Mode
 #### `npm start`
 
 Runs the app in the development mode.<br>
@@ -30,7 +31,7 @@ Perks of hot-reloading. :)
 We must build the app and run an http server from our build directory in order to see the Service Worker's effect because it is only enabled in production environment.
 It is optimal to run it in incognito mode to avoid issues with your current browser cache.
 <br />
-### Running the application with ServiceWorker:
+### 3. Running the application with ServiceWorker:
 Once the application is build for production , we can serve it locally on our http server.
 
 #### `serve -s build`
@@ -43,7 +44,7 @@ Service Worker
 
 <br />
 
-### Performance Report by Lighthouse
+### Performance Report by Lighthouse(web development tool)
 
 ![](performance.png)
 
