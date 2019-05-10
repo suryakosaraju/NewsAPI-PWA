@@ -8,7 +8,7 @@ In a progressive web application, we make use of a service worker to give an nat
 <br />
 
 ### Why use ReactJS?
-ReactJS is a good option for PWAs because they add it offers to add a manifest and generates the service-worker by default which makes the programming in React much more intuitive.
+ReactJS is a good option for PWAs because it offers to add a manifest and generates the service-worker by default which makes the programming in React much more intuitive.
 <br />
 <br />
 
