@@ -1,10 +1,23 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Particles from 'react-particles-js';
+
 
 //        <img src={logo} className="App-logo" alt="logo" />
 
+const particlesParams = {
 
+	particles: {
+		number: {
+			value: 150,
+			density: {
+				enable: true,
+				value_area: 800
+			}
+		}
+	}
+}
 class App extends Component {
 
   constructor(props){
@@ -62,12 +75,14 @@ class App extends Component {
 
         return (
           <div className="App">
+         
       {/* Checking if the articles a response has been received for the request to NewsAPI*/}
           {this.state.isLoading || !this.state.articles ? (
             <p> Loading...</p>
             ): ( 
-
             <div>
+          <Particles className='particles' params={particlesParams} />
+
             <img width="100px" height="100px" src="https://media.featuredcustomers.com/Company.logo/Chalhoub_Group.png"></img>
             <br></br>
             <br></br>
@@ -134,7 +149,8 @@ class App extends Component {
           </div>
 
         );
-   
+        
+	   
   }
 }
 
