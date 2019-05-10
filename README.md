@@ -45,7 +45,7 @@ Service Worker
 
 ### Performance Report by Lighthouse
 
-![](performances.png)
+![](performance.png)
 
 <br />
 <br />
