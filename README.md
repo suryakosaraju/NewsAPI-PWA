@@ -6,6 +6,10 @@ We've always thought about how a personalised news feed would be like. Look no f
 ### PWA-Aspect
 In a progressive web application, we make use of a service worker to give an native app-like experience to the users through the PWA itself. By using a service-worker, we are able to store any static content and access the web app even while offline. Once we load the website, the service worker is registered and is the cache is updated everytime we reload the web app. This allows for the web app's loading time to match that of a native app.
 <br />
+
+### Why use ReactJS?
+ReactJS is a good option for PWAs because they add it offers to add a manifest and generates the service-worker by default which makes the programming in React much more intuitive.
+<br />
 <br />
 
 ## Let's fire it up and get it running!
