@@ -1,23 +1,23 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Particles from 'react-particles-js';
 
 
 //        <img src={logo} className="App-logo" alt="logo" />
 
-const particlesParams = {
+// const particlesParams = {
 
-	particles: {
-		number: {
-			value: 150,
-			density: {
-				enable: true,
-				value_area: 800
-			}
-		}
-	}
-}
+// 	particles: {
+// 		number: {
+// 			value: 150,
+// 			density: {
+// 				enable: true,
+// 				value_area: 800
+// 			}
+// 		}
+// 	}
+// }
+
 class App extends Component {
 
   constructor(props){
@@ -50,7 +50,7 @@ class App extends Component {
     //   });
     // if(sourcen==null){
 
-          const url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=90f3115a267341bca2b9fe69d0653820';
+          const url = 'https://newsapi.org/v2/top-headlines?country=ae&apiKey=90f3115a267341bca2b9fe69d0653820';
       const response = await fetch(url);
       const data = await response.json();
   {/* Assigning the response received from the request into the articles array
@@ -81,9 +81,9 @@ class App extends Component {
             <p> Loading...</p>
             ): ( 
             <div>
-          <Particles className='particles' params={particlesParams} />
+        {/*  <Particles className='particles' params={particlesParams} /> */}
 
-            <img width="100px" height="100px" src="https://media.featuredcustomers.com/Company.logo/Chalhoub_Group.png"></img>
+            <img alt="Oops! Image not available" width="247px" height="208px" src="https://media.featuredcustomers.com/Company.logo/Chalhoub_Group.png"></img>
             <br></br>
             <br></br>
              <h1 id="maintitle">Chalhoub's Freshly Squeezed News!</h1>
@@ -97,7 +97,7 @@ class App extends Component {
              {this.state.articles.map(article =>(
               <li class="main-content">
                 <h1 class="titlee">{article.title}</h1>              
-                  <img width="100%" height="100%" src={article.urlToImage}></img>
+                  <img alt="Oops! Image not available"  width="100%" height="100%" src={article.urlToImage}></img>
 
                 <p class="desc"><strong>{article.description}</strong></p>
                 <p class="cont">{article.content} <a class="link-style" href={article.url}>For more</a></p>
